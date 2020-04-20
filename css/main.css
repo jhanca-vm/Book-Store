@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,700i&display=swap');
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?8gjckn');
+    src:  url('../fonts/icomoon.eot?8gjckn#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?8gjckn') format('truetype'),
+      url('../fonts/icomoon.woff?8gjckn') format('woff'),
+      url('../fonts/icomoon.svg?8gjckn#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #424242;
+    background-image: url('https://i.imgur.com/gW0ad96.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #fafafa;
+    box-shadow: 0px 3px 6px #00000029;
+    -webkit-box-reflect: above;
+}
+
+header img {
+    height: 6vh;
+}
+
+main {
+    width: 75vw;
+    height: 85.92vh;
+    display: grid;
+    grid-template-rows: .9fr 2fr;
+    grid-row-gap: 5vh;
+    margin: auto;
+}
+
+.phrase {
+    text-align: center;
+    align-self: flex-end;
+}
+
+.phrase h3 {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.products div {
+    width: 283px;
+    height: 273px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 30px 15px 0;
+}
+
+.products img {
+    height: 100px;
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.products div button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #424242;
+    cursor: pointer;
+}
+
+.ebook button {
+    background-color: #4dd0e1;
+}
+
+.ebook button:hover {
+    color: #fafafa;
+    background-color: #00acc1;
+}
+
+.audiobook button {
+    background-color: #ffca28;
+}
+
+.audiobook button:hover {
+    color: #fafafa;
+    background-color: #ffa000;
+}
+
+footer {
+    width: 100%;
+    height: 6vh;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+.icon-github:before {
+    content: "\e902";
+    margin-right: 10px;
+  }
+
+.icon-instagram:before {
+    content: "\e900";
+    margin-right: 10px;
+  }
+
+.icon-twitter:before {
+    content: "\e901";
+    margin-right: 20px;
+  }
+
+  
