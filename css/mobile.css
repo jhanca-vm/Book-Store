@@ -1,0 +1,104 @@
+@media screen and (max-width: 890px) {
+    main {
+        width: 90vw;
+    }
+
+    .purchase_data {
+        height: 90vmax;
+        display: grid;
+        grid-template-rows: 280px 280px;
+    }
+
+    .purchase_data figure {
+        margin: 0;
+        margin-bottom: 25px;
+        height: 220px;
+        width: 220px;
+        align-self: flex-end;
+        justify-self: center;
+    }
+
+    .purchase_data figure img {
+        height: 190px;
+    }
+
+    .purchase_data form {
+        margin-top: 10px;
+        align-self: flex-start;
+        width: ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: initial;
+        height: auto;
+    }
+
+    .phrase {
+        margin: 50px 25px 0;
+        font-size: 15px;
+    }
+
+    .products {
+        display: grid;
+        justify-self: center;
+        margin: 35px 0;
+        grid-row-gap: 5px;
+    }
+
+    .purchase_data form {
+        width: 78.129vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 50px;
+    }
+
+    header img {
+        height: 38px;
+    }
+
+    .phrase {
+        margin: 7vw 18px 0;
+        font-size: 12px;
+    }
+
+    .products {
+        margin: 5vw 0;
+        grid-row-gap: 0;
+    }
+
+    .products div {
+        width: 275px;
+        height: 268px;
+    }
+
+    .products p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .purchase_data {
+        grid-template-rows: 1fr 2fr;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .purchase_data figure {
+        width: 50vw;
+        height: 50vw;
+        margin: 18px 0 12px;
+    }
+
+    .purchase_data figure img {
+        height: 45vw;
+    }
+
+    .purchase_data form .button {
+        height: 35px;
+        font-size: 15px;
+    }
+}

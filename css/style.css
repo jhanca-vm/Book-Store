@@ -49,7 +49,6 @@ header {
     height: 8vh;
     background-color: #fafafa;
     box-shadow: 0px 3px 6px #00000029;
-    -webkit-box-reflect: above;
 }
 
 header img {
